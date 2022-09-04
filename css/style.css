@@ -9453,7 +9453,8 @@ a {
 
 @media only screen and (max-width: 767px) {
   [data-sidebar-style="overlay"] .nav-header .logo-abbr {
-    display: block; } }
+    display: block;
+    background-color: white } }
 
 [data-header-position="fixed"] .nav-header {
   position: fixed;
@@ -9471,10 +9472,12 @@ a {
   transition: all .2s ease;
   z-index: 5; }
   .nav-header .logo-abbr {
-    max-width: 55px; }
+    max-width: 55px;
+    background-color: white }
     @media only screen and (max-width: 575px) {
       .nav-header .logo-abbr {
-        max-width: 45px; } }
+        max-width: 45px;
+        background-color: white } }
   .nav-header .logo-compact {
     display: none; }
   @media only screen and (min-width: 1200px) and (max-width: 1350px) {
@@ -9595,13 +9598,15 @@ a {
 [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .brand-title {
   display: none; }
 [data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .nav-header .logo-abbr {
-  display: block; }
+  display: block;
+  background-color: white }
 
 [data-sidebar-style="full"][data-layout="horizontal"] .logo-compact {
   display: none; }
 
 [data-sidebar-style="mini"] .nav-header .logo-abbr {
-  display: block; }
+  display: block;
+  background-color: white }
 
 [data-sidebar-style="compact"][data-layout="vertical"] .nav-header .brand-title {
   display: none; }
@@ -12889,7 +12894,8 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
         padding-right: 1.25rem;
         padding-left: 1.25rem; }
       [data-sidebar-style="icon-hover"][data-layout="vertical"] .nav-header .brand-logo .logo-abbr {
-        display: block; }
+        display: block;
+        background-color: white }
       [data-sidebar-style="icon-hover"][data-layout="vertical"] .nav-header .brand-logo .brand-title {
         display: none; }
     [data-sidebar-style="icon-hover"][data-layout="vertical"] .nav-header .nav-control {
